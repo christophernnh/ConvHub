@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".ConvHub"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConvHub"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.screens.joblisterprofile.JobListerProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_job_lister_profile_screen"
+            android:theme="@style/Theme.ConvHub" />
+        <activity
+            android:name=".ui.screens.forgotpassword.ForgotPasswordActivity"
+            android:exported="false"
+            android:label="@string/title_activity_forgot_password_screen"
+            android:theme="@style/Theme.ConvHub" />
+        <activity
+            android:name=".ui.screens.jobdetail.JobDetailScreenKt"
+            android:exported="false"
+            android:label="@string/title_activity_job_detail_screen"
+            android:theme="@style/Theme.ConvHub" />
+<!--        <activity-->
+<!--            android:name=".ui.screens.detailTaker.DetailTakerScreen"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/title_activity_detail_taker_screen"-->
+<!--            android:theme="@style/Theme.ConvHub" />-->
+        <activity
+            android:name=".ui.screens.detailLister.DetailListerScreen"
+            android:exported="false"
+            android:label="@string/title_activity_detail_lister_screen"
+            android:theme="@style/Theme.ConvHub" />
+        <activity
+            android:name=".ui.screens.detailTaker.DetailTakerScreen"
+            android:exported="false"
+            android:label="@string/title_activity_detail_lister_screen"
+            android:theme="@style/Theme.ConvHub" />
+        <activity
+            android:name=".ui.CreateTaskActivity"
+            android:exported="false"
+            android:label="@string/title_activity_job_detail_screen"
+            android:theme="@style/Theme.ConvHub" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.ConvHub" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.screens.biometrics.BiometricsScreen"
+            android:exported="true"
+            android:label="@string/title_activity_biometrics_screen"
+            android:theme="@style/Theme.ConvHub" />
+        <activity
+            android:name=".ui.screens.jobtakerprofile.JobTakerProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ConvHub" />
+        <activity
+            android:name=".LandingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

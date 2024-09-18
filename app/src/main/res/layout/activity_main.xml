@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_alignParentBottom="true"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        android:elevation="10dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/homeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/round_back_home"
+            >
+
+            <ImageView
+                android:id="@+id/homeImg"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="#00FFFFFF"
+                android:src="@drawable/home_outlined_icon"
+                app:tint="@color/dark_blue" />
+            
+            <TextView
+                android:id="@+id/homeTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/dark_blue"
+                android:textSize="16sp" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scheduleLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/transparent">
+
+            <ImageView
+                android:id="@+id/scheduleImg"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/schedule_outlined_icon"
+                app:tint="@color/dark_blue"/>
+
+            <TextView
+                android:id="@+id/scheduleTxt"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Schedule"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/dark_blue"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tasksLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/transparent">
+
+            <ImageView
+                android:id="@+id/tasksImg"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/tasks_outlined_icon"
+                app:tint="@color/dark_blue"
+                />
+
+            <TextView
+                android:id="@+id/tasksTxt"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tasks"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/dark_blue"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/profileLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/transparent">
+
+            <ImageView
+                android:id="@+id/profileImg"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/profile_outlined_icon"
+                app:tint="@color/dark_blue"
+                />
+
+            <TextView
+                android:id="@+id/profileTxt"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/dark_blue"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

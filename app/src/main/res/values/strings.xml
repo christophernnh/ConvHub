@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ConvHub</string>
+    <string name="title_activity_compose">ComposeActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_create_task">CreateTask</string>
+    <string name="title_activity_biometrics_screen">BiometricsScreen</string>
+    <string name="title_activity_job_detail_screen">JobDetailScreen</string>
+    <string name="title_activity_forgot_password_screen">ForgotPasswordScreen</string>
+    <string name="title_activity_detail_lister_screen">DetailListerScreen</string>
+    <string name="title_activity_detail_taker_screen">DetailTakerScreen</string>
+    <string name="title_activity_completed_jobs_screen">CompletedJobsScreen</string>
+    <string name="title_activity_job_taker_profile_screen">JobTakerProfileScreen</string>
+    <string name="title_activity_job_lister_profile_screen">JobListerProfileScreen</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "513284356007",
+    "project_id": "convhub-6ac83",
+    "storage_bucket": "convhub-6ac83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513284356007:android:ad58d83ee7ef52f303a882",
+        "android_client_info": {
+          "package_name": "edu.bluejack23_2.convhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsn1D1a4abBfR0lLL_osI0WWSLFSpeGto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
